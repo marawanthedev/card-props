@@ -6,8 +6,8 @@ import "../App.css"
 
 export default function WithoutProps() {
     return (
-        <div>
-            <h1>❌ Cards Without Props</h1>
+        <div style={{ width: "100%" }}>
+            <h1 style={{ textAlign: "center" }}>❌ Cards Without Props</h1>
 
             <div className="container">
                 <div className="card">

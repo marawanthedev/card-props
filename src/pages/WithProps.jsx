@@ -7,8 +7,8 @@ import Card from "../components/Card";
 
 export default function WithProps() {
     return (
-        <div>
-            <h1>✅ Card With Props</h1>
+        <div style={{ width: "100%" }}>
+            <h1 style={{ textAlign: "center" }}>✅ Card With Props</h1>
 
             <div className="container">
                 <Card
